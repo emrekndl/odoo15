@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="patient_tag_vip" model="patient.tag">
+        <field name="p_name">VIP</field>
+        <field name="p_color2">#FF0000</field>
+    </record>
+    <record id="patient_tag_kid" model="patient.tag">
+        <field name="p_name">Kid</field>
+        <field name="p_color">4</field>
+        <field name="p_color2">#005EFF</field>
+    </record>
+    <record id="patient_tag_adult" model="patient.tag">
+        <field name="p_name">Adult</field>
+        <field name="p_color2">#3DC408</field>
+    </record>
+    <record id="patient_tag_mr" model="patient.tag">
+        <field name="p_name">Mr</field>
+        <field name="p_active" eval="False" />
+        <field name="p_color2">#F6A541</field>
+    </record>
+</odoo>
